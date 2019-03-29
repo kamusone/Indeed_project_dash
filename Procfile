@@ -1,1 +1,1 @@
-web: gunicorn indeed-project-predict.wsgi:application --log-file -
+web: python app.py run_gunicorn
