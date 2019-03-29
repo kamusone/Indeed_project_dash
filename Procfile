@@ -1,0 +1,1 @@
+web: gunicorn indeed-project-predict.wsgi --log-file -
