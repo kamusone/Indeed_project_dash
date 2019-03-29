@@ -1,1 +1,1 @@
-web: gunicorn flask_heroku.wsgi:application --log-file -
+web: gunicorn indeed-project-predict.wsgi:application --log-file -
