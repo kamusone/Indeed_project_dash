@@ -1,1 +1,1 @@
-web: python app.py run_gunicorn
+web: python flask_heroku/app.py run_gunicorn
