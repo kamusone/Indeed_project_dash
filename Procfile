@@ -1,1 +1,1 @@
-web: gunicorn indeed-project-predict.wsgi --log-file -
+web: gunicorn gunicorn indeed-project-predict:app
